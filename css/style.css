@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+  font-family: Corben-regular;
+  src: url("../fonts/Corben-Regular.ttf");
+}
+
+@font-face {
+  font-family: Corben-bold;
+  src: url("../fonts/Corben-Bold.ttf");
+}
+
+@font-face {
+  font-family: qilk;
+  src: url("../fonts/qilka.bold.otf");
+}
+
+
+@font-face {
+  font-family: harmonia;
+  src: url("../fonts/Harmonia Sans W01 Regular.otf");
+}
+
+
+body {
+	
+	font-family: harmonia;
+	
+}
+
+
+h1 {
+	 font-family:  Corben-bold;
+	font-size: 30px;
+}
+
+
+h2{
+	
+	font-family:  harmonia;
+	font-size: 15px;
+	font-weight: 400
+	
+}
+
+
+.classic_header {
+	
+	padding: 20px;
+	background-color: #EEB627;
+	font-family: qilk;
+	text-align: center;
+}
+
+.elcontenedor img  {
+	
+	
+	
+}
+
+.header_list ul li  {
+  
+  list-style-type: none;
+  font-family: qilk;
+  padding-left: 20px ;
+	padding-top: 10px;
+	
+  
+  
+}
+.header_list a {
+	
+	text-decoration: none;
+	text-emphasis-color: aqua;
+	color: #fff;
+	text-align: match-parent;
+	
+}
+.header_list a:hover {
+	
+	text-decoration: none;
+	text-emphasis-color: aqua;
+	color: #986215;
+	
+}
+
+p {overflow-wrap: break-word;
+	max-width: 600px;
+	color: #4F3907 ;
+	font-size: 15px;
+	text-align: center;
+}
+
+.deldia {
+  position: relative;
+  overflow: hidden;
+  color: black;
+}
+
+.deldia  {
+  
+  background-image: url("../img/sitio/aguas-termales.jpg");
+	background-repeat: no-repeat;
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	
+}
+
+.descripsi {
+	background-image: url("../img/sitio/lacampana.jpg");
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+}
+
+.descrsipsi .bg-idmg-1 {
+  position: absolute;
+  inset: 0;
+  background-image: url("../img/sitio/lacampana.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Controls transparency of background only */
+  z-index: 0;
+	
+}
+
+
+
+
+.deldia p img{
+	color: black;
+	opacity: 1;
+	z-index: 1;
+	align-content:center;
+}
+
+.locked-cage{
+	
+	background-color: antiquewhite;
+	padding: 20px;
+	border-radius: 30px;
+	 margin: 0 auto;
+	 max-width: 600px;
+	
+}
+
+
+
+
+.mision {
+	
+	background-color: antiquewhite;
+	
+	
+}
+
+.descripsiones {
+	position: absolute;
+	background-image:url("../img/sitio/lacampana.jpg");
+	 background-size: cover;
+  background-position: center;
+  opacity: 0.4; /* Controls transparency of background only */
+  z-index: 0;
+	padding: 40px;
+}
+
+.section {
+	padding:50px;
+}
+
+.classic_footer {
+	
+	background-color: #eeb627;
+	color: #fff;
+	font-family: Corben;
+	src: url(\Projecte\font\Corben-Regular.ttf);
+	padding: 10px;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+	font font-family: corben;
+	
+	
+}
+
+#msiio article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conten-delete {
+	padding: 10px;
+	border-radius: 30px;
+	align-content: center;
+	box-sizing: border-box;
+	
+  
+}
+p {
+	color: #4F3907 ;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+
+h3 {
+	font-weight: 300;
+	font-family: "qilk"
+	font-size: 40px;
+	color: #4F3907;
+	text-align: center;
+}
+/* elementos del navbar*/
+  .navbar-light .navbar-nav .nav-link {
+    background-color: #EEB627;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+	font-size: 20px; 
+	flex-direction:row;
+  }
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #A68618;
+}
+
+ .navbar-light .navbar-nav .nav-link img{
+	padding: 50px;
+}
+
+.navbar-toggler{
+	font-style: 20px;
+}
+/* elementos del navbar*/
+.contenedor {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+#image-ribbon-gastronomia {
+	padding: 50px;
+	text-align: center;
+	color: aqua
+}
+
+#herolista{
+	color: #FFFFFF;
+	background-image: url("../img/articulos/mototaxis.jpg");
+	background-repeat: no-repeat;
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 5% 4% 5% ;
+	text-align: center;
+	
+}
+
+#herolista div article div {
+	align-items: center;
+	background-color: antiquewhite;
+	border-radius: 20px;
+	padding: 20px 0 0 0;
+	
+}
+
+
+#herolista div a{
+	color: aqua;
+	text-decoration: none;
+	
+}
+#herolista div a h3:hover{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+
+#herolista h1 {
+  font-size: 40px;
+padding: 20px;
+	
+}
+
+.segmento-articulo {
+	padding: 15px 0 0 0;
+}
+
+
+
+#login {
+	color: #FFFFFF;
+	background-image: url("../img/articulos/mototaxis.jpg");
+	background-repeat: no-repeat;
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(102,76,8,1.00);
+	background-blend-mode: multiply;
+	padding: 5% 4% 5% ;
+	text-align: center;
+	padding: 120px;
+	text-align: center;
+	align-content: center;
+	
+}
+
+#login div div form {
+	background-color: #ca2786;
+	border-radius: 7px;
+	color: #fff;
+	font-family: qilk;
+	padding: 50px 10px 20px 20px;
+	text-align: center;
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.titulo {
+    text-align: center;
+    font-size: 48px;
+    margin-top: 40px;
+    font-family: "Comic Sans MS", cursive;
+}
+
+
+.grid {
+    width: 85%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.icon svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.icon svg:hover {
+    transform: scale(1.1);
+    stroke: #d9a71c;
+}
+
+#heroplaya {
+	background-image: url("../img/playta1.jpeg");
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	
+	text-align: center;
+	color: #fff;
+}
+
+#playa2 {
+	background-image: url("../img/playa2.jpeg");
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+}
+
+
+
+#hero-gastronomia {
+	
+}
+
+
+#texto-gastronomia {
+	padding: 10%;
+	text-align: center;
+	color: #FFFFFF;
+	align-content: center;
+}
+
+
+#herogastro {
+	background-image: url("../img/baleada.jpeg");
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 10% 0;
+	
+	text-align: center;
+	color: #fff;
+}
+
+#gastro {
+	background-image: url("../img/comida.jpg");
+  	position: relative;
+ 	background-size: cover;
+	background-position: center;
+	background-color: rgba(0,0,0,0.65);
+	background-blend-mode: multiply;
+	padding: 15% 0;
+}
+
+
+
+features {
+	background-color: #BCBCBC;
+	text-align:center;
+	padding-left: 70%;
+	margin-bottom: 20px;
+		
+}
+
+#features h2 {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-weight: 400px;
+}
+
+#features {
+	text-align:  center;
+	
+}
+
+#features h2, h4,{
+	color: #000000;
+	text-align: center;
+	padding-bottom: 10px;
+	font-weight: 200;
+}
+
+#features p{
+	color: black;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.honduras-maya{
+	padding-bottom: 10% 0;
+	
+}
+.honduras-maya h4 {
+	font-weight: bold;
+	font-family: "Corben Bold";
+}
+
+
+.mcalister {
+	padding-bottom: 10% 0;
+}
+
+.mcalister h4 { 
+	font-weight: bold;
+	font-family: "Corben Bold";
+
+}
